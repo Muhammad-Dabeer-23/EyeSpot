@@ -1,16 +1,40 @@
-# practice
+# **EyeSpot: Object Detection and Autozoom App**
 
-A new Flutter project.
+EyeSpot is an innovative mobile application designed to detect objects in images and automatically zoom to fit the detected object within the boundary. It utilizes the YOLOv5 pre-trained model for efficient and accurate object detection.
 
-## Getting Started
+## **Features**
 
-This project is a starting point for a Flutter application.
+  Object Detection: EyeSpot employs YOLOv5, a state-of-the-art object detection model, to identify objects within images.
+  Autozoom: Once an object is detected, EyeSpot automatically adjusts the zoom level to fit the detected object within the boundary of the screen.
+  User-Friendly Interface: EyeSpot offers a simple and intuitive user interface, making it easy for users to capture images and view detected objects.
 
-A few resources to get you started if this is your first Flutter project:
+## **Getting Started**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the Repository: Clone the EyeSpot repository to your local machine:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    git clone https://github.com/your-username/eyespot.git
+
+Install Dependencies: Navigate to the project directory and install the required dependencies:
+
+    cd eyespot
+    flutter pub get
+
+Run the App: Launch the EyeSpot app on your preferred device or emulator:
+
+    flutter run
+
+## **Usage**
+
+  Capture Image: Use the built-in camera functionality to capture an image containing the object you want to detect.
+
+  Detect Object: EyeSpot will automatically process the captured image using the YOLOv5 model to detect objects within the image.
+
+  Autozoom: Once an object is detected, EyeSpot will adjust the zoom level to fit the detected object within the screen boundary.
+
+## Sample App
+
+A sample EyeSpot app demonstrating the object detection and autozoom features will be provided soon. Stay tuned!
+
+## License
+
+ This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
